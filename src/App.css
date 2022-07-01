@@ -1,0 +1,40 @@
+.products-wrap {
+  margin: 1rem;
+  justify-content: flex-start;
+}
+
+.prod-img {
+  width: 12rem;
+}
+
+.prod-txt {
+  word-wrap: break-word;
+}
+
+.prod-container {
+  width: 15rem;
+}
+
+.gap {
+  gap: 1rem;
+}
+.single-prod-title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.home-img {
+  max-height: 30rem;
+}
+.grow {
+  flex-grow: 1;
+}
+
+.single-page-img {
+  margin: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .single-prod {
+    flex-direction: column;
+  }
+}
